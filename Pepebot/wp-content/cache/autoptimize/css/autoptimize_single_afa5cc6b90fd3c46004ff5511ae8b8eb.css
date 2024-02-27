@@ -204,9 +204,9 @@ body.main li.telegram:hover {
 .main-info,
 .contact {
     padding: 255px 0 150px;
-    background: url(../../../themes/nano/images/world.png), linear-gradient(0deg, rgb(217, 232, 11), rgb(217, 232, 11) 0% 100%);
+    background: url(../../../themes/nano/images/world.jpeg), linear-gradient(0deg, rgb(217, 232, 11), rgb(217, 232, 11) 0% 100%);
     background-size: contain;
-    background-color: #14141b;
+    background-color: #e5f10e;
     background-repeat: no-repeat;
     background-position: center
 }
@@ -586,6 +586,31 @@ body.main .tm-wrapper p {
 .main-footer {
     background-color: #171818;
     padding: 20px 0
+}
+.disclaimer-outer {
+    padding: 100px 0;
+
+}
+
+.disclaimer {
+    padding: 50px 4%;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    font-family: var(--tg-heading-font-family);
+    background-color: #000000;
+}
+
+.disclaimer h3 {
+    margin: 0;
+    color: #eb1c1c;
+}
+
+.disclaimer p {
+    margin: 0;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
 }
 
 .footer-nav ul li a {
